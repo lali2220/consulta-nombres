@@ -1,5 +1,6 @@
 {
-  "name": "api-reniec",    // ✅ Con comillas y dos puntos
+  "name": "api-reniec",
   "version": "1.0.0",
   "type": "module"
 }
+
