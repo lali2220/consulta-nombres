@@ -1,6 +1,13 @@
 {
   "name": "api-reniec",
   "version": "1.0.0",
-  "type": "module"
+  "description": "API para consultar DNI de RENIEC",
+  "type": "module",
+  "main": "api/reniec.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node api/reniec.js"
+  }
 }
-
