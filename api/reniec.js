@@ -1,4 +1,4 @@
-import data from "../data/dni.json";
+import data from "../data/dni.json" assert { type: "json" };
 
 export default function handler(req, res) {
   const { dni } = req.query;
@@ -22,3 +22,4 @@ export default function handler(req, res) {
     data: persona
   });
 }
+
